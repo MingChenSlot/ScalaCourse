@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150608220929"/>
+		date="20150620152041"/>
 	<dependencies>
 		<module organisation="com.storm-enroute" name="scalameter_2.11">
 			<revision name="0.6" status="release" pubdate="20140716065119" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalameter.github.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">

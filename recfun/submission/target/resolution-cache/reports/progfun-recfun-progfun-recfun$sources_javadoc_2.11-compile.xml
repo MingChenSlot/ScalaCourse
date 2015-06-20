@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150608224714"/>
+		date="20150620152149"/>
 	<dependencies>
 		<module organisation="com.github.scala-blitz" name="scala-blitz_2.11">
 			<revision name="1.1" status="release" pubdate="20140616234800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-blitz.github.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">

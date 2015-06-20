@@ -1023,9 +1023,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.7!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar
-[debug] :: resolution report :: resolve 672ms :: artifacts dl 34ms
-[debug] 	report for recitations#recitations$sbt_2.10;0.1-SNAPSHOT default produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sbt_2.10-default.xml
-[debug] 	resolve done (672ms resolve - 34ms download)
+[debug] :: resolution report :: resolve 2037ms :: artifacts dl 47ms
+[debug] 	report for recitations#recitations$sbt_2.10;0.1-SNAPSHOT default produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sbt_2.10-default.xml
+[debug] 	resolve done (2037ms resolve - 47ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: recitations#recitations$sources_2.10;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1528,6 +1528,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.1!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 122ms :: artifacts dl 27ms
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT default produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_2.10-default.xml
-[debug] 	resolve done (122ms resolve - 27ms download)
+[debug] :: resolution report :: resolve 423ms :: artifacts dl 88ms
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT default produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_2.10-default.xml
+[debug] 	resolve done (423ms resolve - 88ms download)

@@ -4,7 +4,7 @@
 		module="progfun-recfun$sources_2.11"
 		revision="1.0.0"
 		status="integration"
-		publication="20150608224643"
+		publication="20150620152139"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -209,12 +209,6 @@
 		</dependency>
 		<dependency org="org.scalaz" name="scalaz-core_2.10" rev="7.0.2" transitive="false" conf="default->default(compile)">
 			<artifact name="scalaz-core_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="2.5.0" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
-			<artifact name="sbteclipse-plugin" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-core" rev="2.5.0" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
-			<artifact name="sbteclipse-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scalaz" name="scalaz-effect_2.10" rev="7.0.2" transitive="false" conf="default->default(compile)">
 			<artifact name="scalaz-effect_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>

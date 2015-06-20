@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="default"
 		confs="default"
-		date="20150608224649"/>
+		date="20150620152145"/>
 	<dependencies>
 		<module organisation="org.scalaz" name="scalaz-effect_2.10">
 			<revision name="7.0.2" status="release" pubdate="20130707053131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="66">

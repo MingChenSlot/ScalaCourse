@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3011506c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e8116ec
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -157,18 +157,18 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
-[debug] :: resolution report :: resolve 38ms :: artifacts dl 4ms
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-compile.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-runtime.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-test.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-provided.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-optional.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-compile-internal.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-runtime-internal.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-test-internal.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-plugin.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-sources.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-docs.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-pom.xml
-[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT scala-tool produced in /Users/mingchen/IdeaProjects/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-scala-tool.xml
-[debug] 	resolve done (38ms resolve - 4ms download)
+[debug] :: resolution report :: resolve 60ms :: artifacts dl 23ms
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-compile.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-runtime.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-test.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-provided.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-optional.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-compile-internal.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-runtime-internal.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-test-internal.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-plugin.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-sources.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-docs.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-pom.xml
+[debug] 	report for recitations#recitations$sources_javadoc_2.10;0.1-SNAPSHOT scala-tool produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/recitations/target/resolution-cache/reports/recitations-recitations$sources_javadoc_2.10-scala-tool.xml
+[debug] 	resolve done (60ms resolve - 23ms download)

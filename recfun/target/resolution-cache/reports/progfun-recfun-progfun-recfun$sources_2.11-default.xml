@@ -7,28 +7,10 @@
 		revision="1.0.0"
 		conf="default"
 		confs="default"
-		date="20150608224643"/>
+		date="20150620152139"/>
 	<dependencies>
-		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-plugin">
-			<revision name="2.5.0" status="release" pubdate="20140430121620" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="66">
-				<metadata-artifact status="no" details="" size="1434" time="0" location="/Users/mingchen/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml"/>
-				<caller organisation="progfun-recfun" name="progfun-recfun$sources_2.11" conf="default" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
-				<artifacts>
-					<artifact name="sbteclipse-plugin" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.typesafe.sbteclipse" name="sbteclipse-core">
-			<revision name="2.5.0" status="release" pubdate="20140430121620" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="67">
-				<metadata-artifact status="no" details="" size="1478" time="0" location="/Users/mingchen/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-core/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml"/>
-				<caller organisation="progfun-recfun" name="progfun-recfun$sources_2.11" conf="default" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
-				<artifacts>
-					<artifact name="sbteclipse-core" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.scalaz" name="scalaz-effect_2.10">
-			<revision name="7.0.2" status="release" pubdate="20130707053131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="68">
+			<revision name="7.0.2" status="release" pubdate="20130707053131" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="66">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2671" time="0" location="/Users/mingchen/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.2/scalaz-effect_2.10-7.0.2.pom"/>
 				<caller organisation="progfun-recfun" name="progfun-recfun$sources_2.11" conf="default" rev="7.0.2" rev-constraint-default="7.0.2" rev-constraint-dynamic="7.0.2" callerrev="1.0.0"/>

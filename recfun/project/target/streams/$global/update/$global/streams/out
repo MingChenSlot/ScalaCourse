@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/mingchen/IdeaProjects/recfun/project/}recfun-build...
+[info] Updating {file:/Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/}recfun-build...
 [debug] :: resolving dependencies :: default#recfun-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -372,34 +372,16 @@
 [debug] == resolving dependencies default#recfun-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 {compile=[default(compile)]}
-[info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0
-[debug] 		=> https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml (2.5.0)
-[debug] downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!ivy.xml(ivy.original) (1952ms)
-[debug] 	found com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 in typesafe-ivy-releases
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0
+[debug] 	found com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-core;2.5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.5.0 {compile=[default(compile)]}
-[info] Resolving com.typesafe.sbteclipse#sbteclipse-core;2.5.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.5.0 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-core;2.5.0
-[debug] 		=> https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml (2.5.0)
-[debug] downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!ivy.xml(ivy.original) (1588ms)
-[debug] 	found com.typesafe.sbteclipse#sbteclipse-core;2.5.0 in typesafe-ivy-releases
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-core;2.5.0
+[debug] 	found com.typesafe.sbteclipse#sbteclipse-core;2.5.0 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}
@@ -3826,12 +3808,7 @@
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.1!commons-lang3.jar
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!sbteclipse-plugin.jar (2026ms)
+[debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!sbteclipse-plugin.jar
 [debug] 	[NOT REQUIRED] net.databinder#dispatch-core_2.10;0.8.10!dispatch-core_2.10.jar
 [debug] 	[NOT REQUIRED] net.databinder#dispatch-futures_2.10;0.8.10!dispatch-futures_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
@@ -3843,12 +3820,7 @@
 [debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.4!scalariform_2.10.jar
 [debug] 	[NOT REQUIRED] com.github.scopt#scopt_2.10;2.1.0!scopt_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!sbteclipse-core.jar (2683ms)
+[debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!sbteclipse-core.jar
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.7!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.7!main.jar
@@ -3903,19 +3875,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 7422ms :: artifacts dl 4750ms
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT compile produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-compile.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT runtime produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-runtime.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT test produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-test.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT provided produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-provided.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT optional produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-optional.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT compile-internal produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-compile-internal.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT runtime-internal produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-runtime-internal.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT test-internal produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-test-internal.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT plugin produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-plugin.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT sources produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-sources.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT docs produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-docs.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT pom produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-pom.xml
-[debug] 	report for default#recfun-build;0.1-SNAPSHOT scala-tool produced in /Users/mingchen/IdeaProjects/recfun/project/target/resolution-cache/reports/default-recfun-build-scala-tool.xml
-[debug] 	resolve done (7422ms resolve - 4750ms download)
+[debug] :: resolution report :: resolve 1507ms :: artifacts dl 51ms
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT compile produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-compile.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT runtime produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-runtime.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT test produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-test.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT provided produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-provided.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT optional produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-optional.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT compile-internal produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-compile-internal.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT runtime-internal produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-runtime-internal.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT test-internal produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-test-internal.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT plugin produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-plugin.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT sources produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-sources.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT docs produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-docs.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT pom produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-pom.xml
+[debug] 	report for default#recfun-build;0.1-SNAPSHOT scala-tool produced in /Users/mingchen/IdeaProjects/ScalaCourse/recfun/project/target/resolution-cache/reports/default-recfun-build-scala-tool.xml
+[debug] 	resolve done (1507ms resolve - 51ms download)
 [info] Done updating.
