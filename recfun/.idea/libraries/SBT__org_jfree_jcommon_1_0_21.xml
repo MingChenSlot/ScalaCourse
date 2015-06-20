@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.jfree:jcommon:1.0.21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.jfree/jcommon/jcommon-1.0.21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/org.jfree/jcommon/jcommon-1.0.21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.jfree/jcommon/jcommon-1.0.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

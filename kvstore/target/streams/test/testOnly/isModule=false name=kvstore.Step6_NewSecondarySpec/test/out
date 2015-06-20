@@ -1,0 +1,40 @@
+[0m[[0minfo[0m] [0m[32mStep6_NewSecondarySpec:[0m[0m
+[0m[[0minfo[0m] [0m[31m- case1: Primary must start replication to new replicas *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsg while waiting for Snapshot(k1,Some(v1),0)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:165)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg_internal(TestKit.scala:338)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg(TestKit.scala:315)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsg(TestKit.scala:718)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$1.apply$mcV$sp(Step6_NewSecondarySpec.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$1.apply(Step6_NewSecondarySpec.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$1.apply(Step6_NewSecondarySpec.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- case2: Primary must stop replication to removed replicas and stop Replicator *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsg while waiting for Snapshot(k1,Some(v1),0)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:165)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg_internal(TestKit.scala:338)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg(TestKit.scala:315)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsg(TestKit.scala:718)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$2.apply$mcV$sp(Step6_NewSecondarySpec.scala:63)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$2.apply(Step6_NewSecondarySpec.scala:52)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$2.apply(Step6_NewSecondarySpec.scala:52)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- case3: Primary must stop replication to removed replicas and waive their outstanding acknowledgements *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsg while waiting for Snapshot(k1,Some(v1),0)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:165)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg_internal(TestKit.scala:338)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg(TestKit.scala:315)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsg(TestKit.scala:718)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$3.apply$mcV$sp(Step6_NewSecondarySpec.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$3.apply(Step6_NewSecondarySpec.scala:73)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step6_NewSecondarySpec$$anonfun$3.apply(Step6_NewSecondarySpec.scala:73)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

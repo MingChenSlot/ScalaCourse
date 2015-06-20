@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0m[32mStep4_SecondaryPersistenceSpec:[0m[0m
+[0m[[0minfo[0m] [0m[31m- case1: Secondary should not acknowledge snapshots until persisted *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsgClass waiting for class kvstore.Replica$GetResult[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:165)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsgClass_internal(TestKit.scala:423)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsgType(TestKit.scala:396)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsgType(TestKit.scala:718)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Tools$Session.get(Tools.scala:75)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step4_SecondaryPersistenceSpec$$anonfun$1.apply$mcV$sp(Step4_SecondaryPersistenceSpec.scala:39)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step4_SecondaryPersistenceSpec$$anonfun$1.apply(Step4_SecondaryPersistenceSpec.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step4_SecondaryPersistenceSpec$$anonfun$1.apply(Step4_SecondaryPersistenceSpec.scala:27)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- case2: Secondary should retry persistence in every 100 milliseconds *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsgClass waiting for class kvstore.Replica$GetResult[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:165)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsgClass_internal(TestKit.scala:423)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsgType(TestKit.scala:396)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsgType(TestKit.scala:718)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Tools$Session.get(Tools.scala:75)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step4_SecondaryPersistenceSpec$$anonfun$2.apply$mcV$sp(Step4_SecondaryPersistenceSpec.scala:69)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step4_SecondaryPersistenceSpec$$anonfun$2.apply(Step4_SecondaryPersistenceSpec.scala:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at kvstore.Step4_SecondaryPersistenceSpec$$anonfun$2.apply(Step4_SecondaryPersistenceSpec.scala:57)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
